@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid.otf';
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.full-width-reader {
+    width: 100%; /* Ocupa toda a largura da tela */
+    height: 120px;; /* Altura do header, você pode ajustar conforme necessário */
+    background-color: #4CAF50; /* Cor de fundo do header */
+    color: white; /* Cor do texto do header */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: inset 0px 1px 10px 1px black;
+}
+
+nav {
+    background-color: #4CAF50;
+    padding: 0px 0px 10px 0px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.pheader {
+    color: white;
+    background-color: #4CAF50;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    padding: 0px 0px 0px 0px;
+}
+
+.fontclass {
+    font-family: 'idroid.otf';
+    color: rgb(2, 99, 2);
+}
+
+h2 {
+    font-family: 'idroid.otf';
+    color: rgb(2, 99, 2);
+}
+
+.marcada {
+    font-weight: bold;
+    color: rgb(2, 99, 2);
+}
+
+body {
+    background-color: greenyellow;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 265px;
+    box-shadow: 0px 0px 10px black;
+}
+
+p {
+    text-align: center justify;
+}
+
+.ul1 {
+    padding: 10px 0px 0px 80px;
+}
+
+.ul2 {
+    padding: 0px 0px 0px 0px;
+}
+    
+.pheader {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.575);
+    background-color: green;
+    text-align: center;
+    margin: 0px;
+}
+
+.spanfooter {
+    color: white;
+    font-weight: bold;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Catalonia';
+    src: url('font/South\ Catalonia.otf') format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Catalonia',Times, sans-serif;
+    font-size: 50px;
+    background-color: grey;
+    border-radius: 20px 10px;
+    border: 10px solid black;
+    padding: 10px;
+    border-image-source: url(images/BORDA.png);
+    border-image-slice: 18;
+    border-image-repeat: repeat;
+}
+
+main {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0px;
+    box-shadow: 3px 3px 1px black;
+}
+
+nav {
+    background-color: rgb(68, 68, 68);
+    padding: 3px;
+    box-shadow: 2px 2px 0px green;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+article {
+    background-color: lightgrey;
+}
+
+article > aside {
+    background-color: green;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}

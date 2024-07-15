@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+div {
+    display: inline-block;
+    background-color: grey;
+    text-align: center;
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: black;
+}
+
+div#d1 {
+    background-color: blue;
+    border: 5px solid red;
+}
+
+div#d2 {
+    background-color: darkred;
+    border: 5px solid green;
+}
+
+div#d3 {
+    background-color: yellow;
+    border: 5px solid orange;
+}
+/*  SELETORES PERSONALIZADOS
+    #    = id
+    .    = class
+    :    = pseudo-class
+    ::   = pseudo-element
+    >    = children
+*/
